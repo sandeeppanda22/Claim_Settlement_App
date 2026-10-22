@@ -1,0 +1,28 @@
+name: claim_settlement_app
+description: Claim Settlement App — single Flutter codebase for web, Android, iOS, Windows, macOS.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  provider: ^6.1.2
+  sqflite: ^2.3.3
+  sqflite_common_ffi: ^2.3.3
+  path_provider: ^2.1.3
+  path: ^1.9.0
+  flutter_secure_storage: ^9.2.2
+  uuid: ^4.4.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
